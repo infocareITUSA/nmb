@@ -28,7 +28,7 @@ export function LeadershipMessages() {
               <div className="md:col-span-2 relative">
                 <div className="relative h-full min-h-[300px]">
                   <Image
-                    src="/placeholder.svg?height=600&width=400"
+                    src="/images/chairman.jpg"
                     alt="MAHMOUD SULEIMAN NAJEM ALKHTIB - Chairman"
                     fill
                     className="object-cover"
@@ -68,12 +68,12 @@ export function LeadershipMessages() {
           {/* CEO Message */}
           <div className="group relative bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
             <div className="absolute top-0 left-0 w-full h-1 bg-nmb-gold transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
-            <div className="grid md:grid-cols-5 gap-0">
+            <div className="grid md:grid-cols-5 gap-0 h-full">
               {/* Left side - Image */}
               <div className="md:col-span-2 relative">
                 <div className="relative h-full min-h-[300px]">
                   <Image
-                    src="/placeholder.svg?height=600&width=400"
+                    src="/images/ceo.jpg"
                     alt="IYAD MAHD SULEIMAN ALKHATIB - CEO"
                     fill
                     className="object-cover"

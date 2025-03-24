@@ -29,7 +29,7 @@ export function ServicesOverview() {
             <div className="absolute top-0 left-0 w-full h-1 bg-nmb-blue transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
             <div className="relative h-48 overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/service1.jpg"
                 alt="Structural Steel Solutions"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -73,7 +73,7 @@ export function ServicesOverview() {
             <div className="absolute top-0 left-0 w-full h-1 bg-nmb-gold transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
             <div className="relative h-48 overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/service2.jpg"
                 alt="Secondary Steelworks"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -117,7 +117,7 @@ export function ServicesOverview() {
             <div className="absolute top-0 left-0 w-full h-1 bg-nmb-blue transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
             <div className="relative h-48 overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/service3.jpg"
                 alt="Architectural Works"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -236,7 +236,7 @@ export function ServicesOverview() {
                 <div className="absolute top-0 right-0 w-4/5 h-4/5 z-10">
                   <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl">
                     <Image
-                      src="/placeholder.svg?height=600&width=800"
+                      src="/images/project1.jpg"
                       alt="Steel fabrication workshop"
                       fill
                       className="object-cover"
@@ -246,7 +246,7 @@ export function ServicesOverview() {
                 <div className="absolute bottom-0 left-0 w-3/5 h-3/5 z-0">
                   <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl border-4 border-white">
                     <Image
-                      src="/placeholder.svg?height=400&width=500"
+                      src="/images/project2.jpg"
                       alt="Steel fabrication team"
                       fill
                       className="object-cover"

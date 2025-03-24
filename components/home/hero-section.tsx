@@ -73,7 +73,7 @@ export function HeroSection() {
               <div className="bg-white p-3 rounded-xl shadow-xl">
                 <div className="relative rounded-lg overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/images/homehero.jpg"
                     alt="Steel fabrication workshop"
                     width={600}
                     height={600}
