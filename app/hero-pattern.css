@@ -1,0 +1,49 @@
+.hero-pattern {
+  background-color: #0f5288;
+  background-image: linear-gradient(30deg, #0a3d66 12%, transparent 12.5%, transparent 87%, #0a3d66 87.5%, #0a3d66),
+    linear-gradient(150deg, #0a3d66 12%, transparent 12.5%, transparent 87%, #0a3d66 87.5%, #0a3d66),
+    linear-gradient(30deg, #0a3d66 12%, transparent 12.5%, transparent 87%, #0a3d66 87.5%, #0a3d66),
+    linear-gradient(150deg, #0a3d66 12%, transparent 12.5%, transparent 87%, #0a3d66 87.5%, #0a3d66),
+    linear-gradient(60deg, #104980 25%, transparent 25.5%, transparent 75%, #104980 75%, #104980);
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0;
+}
+
+.hero-overlay {
+  background: linear-gradient(to right, rgba(15, 82, 136, 0.95), rgba(15, 82, 136, 0.8));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Add subtle gold accents */
+.hero-pattern::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(to right, #d4a968, #f0d9a8, #d4a968);
+  z-index: 1;
+}
+
+.hero-pattern::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(to right, #d4a968, #f0d9a8, #d4a968);
+  z-index: 1;
+}
+
