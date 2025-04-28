@@ -151,7 +151,7 @@ export default function TermsOfServicePage() {
             <p className="mb-4">If you have any questions about these Terms, please contact us:</p>
             <ul className="list-none pl-0 mb-6">
               <li>
-                <strong>By email:</strong> info@negemco.com
+                <strong>By email:</strong> info@nmb.qa
               </li>
               <li>
                 <strong>By phone:</strong> +974 5589 4464

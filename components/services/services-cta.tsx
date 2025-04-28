@@ -44,7 +44,7 @@ export function ServicesCta() {
                 </div>
                 <div>
                   <p className="text-white/70 text-sm">Email us at</p>
-                  <p className="text-white font-medium">info@negemco.com</p>
+                  <p className="text-white font-medium">info@nmb.qa</p>
                 </div>
               </div>
             </div>
