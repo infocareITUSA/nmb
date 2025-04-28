@@ -164,14 +164,14 @@ export default function Footer() {
                 <Mail className="h-4 w-4 text-nmb-gold shrink-0" />
                 <div>
                   <p className="text-white text-sm font-medium mb-1">Email</p>
-                  <p className="text-white/70 text-xs">info@negemco.com</p>
+                  <p className="text-white/70 text-xs">info@nmb.qa</p>
                 </div>
               </li>
               <li className="flex items-center space-x-3">
                 <Clock className="h-4 w-4 text-nmb-gold shrink-0" />
                 <div>
                   <p className="text-white text-sm font-medium mb-1">Working Hours</p>
-                  <p className="text-white/70 text-xs">Mon-Thu: 8AM-5PM | Fri: 8AM-12PM</p>
+                  <p className="text-white/70 text-xs">Sat-Thu: 7AM-3:30PM | Fri: Closed</p>
                 </div>
               </li>
             </ul>

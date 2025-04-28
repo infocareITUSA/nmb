@@ -31,38 +31,20 @@ export function ContactHeroSection() {
         </div>
 
         {/* Quick Contact Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-colors">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 h-12 w-12 rounded-full bg-white/20 flex items-center justify-center">
                 <MapPin className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="font-semibold text-white mb-2">Headquarters</h3>
+                <h3 className="font-semibold text-white mb-2">Office/Factory</h3>
                 <p className="text-white/70 text-sm">
                   Building No.267, Street No:8
                   <br />
                   New Industrial Area
                   <br />
                   P.O Box: 16230, Doha, Qatar
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-colors">
-            <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 h-12 w-12 rounded-full bg-white/20 flex items-center justify-center">
-                <MapPin className="h-6 w-6 text-white" />
-              </div>
-              <div>
-                <h3 className="font-semibold text-white mb-2">Factory/Warehouse</h3>
-                <p className="text-white/70 text-sm">
-                  Negem Metal Buildings Factory
-                  <br />
-                  Building No.26, Street No.3120
-                  <br />
-                  Zone No.91, Birkat Al Awamer
                 </p>
               </div>
             </div>
@@ -94,11 +76,9 @@ export function ContactHeroSection() {
               <div>
                 <h3 className="font-semibold text-white mb-2">Business Hours</h3>
                 <p className="text-white/70 text-sm">
-                  Monday - Thursday: 8:00 AM - 5:00 PM
+                  Saturday - Thursday: 7:00 AM - 3:30 PM
                   <br />
-                  Friday: 8:00 AM - 12:00 PM
-                  <br />
-                  Saturday - Sunday: Closed
+                  Friday: Closed
                 </p>
               </div>
             </div>
@@ -115,7 +95,7 @@ export function ContactHeroSection() {
               <div>
                 <h3 className="font-semibold text-white mb-2">Email Us</h3>
                 <p className="text-white/70 text-sm mb-2">For inquiries and quotes:</p>
-                <p className="text-white font-medium text-lg">info@negemco.com</p>
+                <p className="text-white font-medium text-lg">info@nmb.qa</p>
               </div>
             </div>
           </div>

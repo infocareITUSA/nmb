@@ -26,7 +26,7 @@ export function KeyProjects() {
           <div className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
             <div className="relative h-64">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/project1.jpg"
                 alt="Tariq Terminal Project"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -69,7 +69,7 @@ export function KeyProjects() {
           <div className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
             <div className="relative h-64">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/project2.jpg"
                 alt="Well Jacket Offshore Platform"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -110,7 +110,7 @@ export function KeyProjects() {
           <div className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
             <div className="relative h-64">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/project3.jpg"
                 alt="Pedestrian Bridges"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"

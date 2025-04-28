@@ -51,7 +51,7 @@ export function CompanyHistory() {
 
           <div className="order-1 lg:order-2">
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl shadow-xl">
-              <Image src="/placeholder.svg?height=600&width=800" alt="Company workshop" fill className="object-cover" />
+              <Image src="/images/qatar.jpg" alt="Company workshop" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0"></div>
               <div className="absolute bottom-4 left-4 right-4">
                 <div className="bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-lg">
@@ -78,7 +78,7 @@ export function CompanyHistory() {
             <div className="grid grid-cols-2 gap-4 mt-4">
               <div className="relative aspect-square w-full overflow-hidden rounded-xl shadow-lg">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/images/service3-old.jpg"
                   alt="Historical company photo"
                   fill
                   className="object-cover"
@@ -86,7 +86,7 @@ export function CompanyHistory() {
               </div>
               <div className="relative aspect-square w-full overflow-hidden rounded-xl shadow-lg">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/images/service1.jpg"
                   alt="Modern facility"
                   fill
                   className="object-cover"

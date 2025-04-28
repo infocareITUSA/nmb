@@ -72,7 +72,7 @@ export function AboutHeroSection() {
               <div className="absolute top-0 right-0 w-4/5 h-4/5 z-10">
                 <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl">
                   <Image
-                    src="/placeholder.svg?height=600&width=800"
+                    src="/images/service2-old.jpg"
                     alt="Negem Metal Buildings Factory"
                     fill
                     className="object-cover"
@@ -82,7 +82,7 @@ export function AboutHeroSection() {
               <div className="absolute bottom-0 left-0 w-3/5 h-3/5 z-0">
                 <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl border-4 border-white">
                   <Image
-                    src="/placeholder.svg?height=400&width=500"
+                    src="/images/service3-old.jpg"
                     alt="Steel fabrication team"
                     fill
                     className="object-cover"
