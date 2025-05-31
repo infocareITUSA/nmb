@@ -1,7 +1,14 @@
-import Image from "next/image"
-import { Truck, Ruler, HardHat, Building2, Wrench, ArrowRight } from "lucide-react"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import {
+  Truck,
+  Ruler,
+  HardHat,
+  Building2,
+  Wrench,
+  ArrowRight,
+} from "lucide-react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export function KeyProjects() {
   return (
@@ -12,10 +19,12 @@ export function KeyProjects() {
             Our Portfolio
           </div>
           <div className="space-y-2 max-w-3xl">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-nmb-blue">Key Projects</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-nmb-blue">
+              Key Projects
+            </h2>
             <p className="text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-[800px] mx-auto">
-              NMB takes pride in delivering complex projects that meet the highest standards of quality, safety, and
-              engineering excellence.
+              NMB takes pride in delivering complex projects that meet the
+              highest standards of quality, safety, and engineering excellence.
             </p>
           </div>
         </div>
@@ -39,10 +48,26 @@ export function KeyProjects() {
             <div className="p-6">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold text-nmb-blue mb-2">Tariq Terminal Project</h3>
+                  <h3 className="text-xl font-bold text-nmb-blue mb-2">
+                    Tariq Terminal Project
+                  </h3>
+                  <div className="text-center">
+                    <h4 className="text-red-700 font-semibold text-sm">
+                      Proposal Ref. No. QS17-152 Rev. 03, July 15, 2018
+                    </h4>
+                    <p className="text-gray-800 text-xs">
+                      Quotation for the Supply & Delivery of Structural Steel
+                      Works
+                    </p>
+                    <p className="text-blue-800 font-semibold text-xs mb-2">
+                      “New Sign Bridges at New Orbital Highway & Truck Route –
+                      Qatar”
+                    </p>
+                  </div>
                   <p className="text-gray-600 text-sm mb-4">
-                    Designed and erected 16 buildings and 13 conveyors for a phosphoric acid plant, ensuring precision
-                    and adherence to safety standards.
+                    Designed and erected 16 buildings and 13 conveyors for a
+                    phosphoric acid plant, ensuring precision and adherence to
+                    safety standards.
                   </p>
                 </div>
                 <div className="flex-shrink-0 ml-4">
@@ -82,10 +107,11 @@ export function KeyProjects() {
             <div className="p-6">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold text-nmb-blue mb-2">Well Jacket Offshore Platform</h3>
+                  <h3 className="text-xl font-bold text-nmb-blue mb-2">
+                    Qafco 7 Projects
+                  </h3>
                   <p className="text-gray-600 text-sm mb-4">
-                    Fabricated and erected advanced steel structures for offshore platforms, designed to withstand
-                    extreme marine conditions.
+                    New Sign Bridges at New Orbital Highway & Truck Routes Qatar
                   </p>
                 </div>
                 <div className="flex-shrink-0 ml-4">
@@ -94,15 +120,17 @@ export function KeyProjects() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-wrap gap-2 mb-4">
+              {/* <div className="flex flex-wrap gap-2 mb-4">
                 <span className="inline-block bg-nmb-blue/5 px-2 py-1 rounded-full text-nmb-blue text-xs">
                   Offshore
                 </span>
                 <span className="inline-block bg-nmb-blue/5 px-2 py-1 rounded-full text-nmb-blue text-xs">
                   Oil & Gas
                 </span>
-                <span className="inline-block bg-nmb-blue/5 px-2 py-1 rounded-full text-nmb-blue text-xs">Marine</span>
-              </div>
+                <span className="inline-block bg-nmb-blue/5 px-2 py-1 rounded-full text-nmb-blue text-xs">
+                  Marine
+                </span>
+              </div> */}
             </div>
           </div>
 
@@ -123,10 +151,11 @@ export function KeyProjects() {
             <div className="p-6">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold text-nmb-blue mb-2">Pedestrian Bridges (Qatar)</h3>
+                  <h3 className="text-xl font-bold text-nmb-blue mb-2">
+                    NFE EPC1 Package
+                  </h3>
                   <p className="text-gray-600 text-sm mb-4">
-                    Engineered and erected architectural bridges with robust steel frameworks, combining aesthetics with
-                    structural integrity.
+                    Supply and Installation of Equipment Shelter Cladding
                   </p>
                 </div>
                 <div className="flex-shrink-0 ml-4">
@@ -135,7 +164,7 @@ export function KeyProjects() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-wrap gap-2 mb-4">
+              {/* <div className="flex flex-wrap gap-2 mb-4">
                 <span className="inline-block bg-nmb-blue/5 px-2 py-1 rounded-full text-nmb-blue text-xs">
                   Infrastructure
                 </span>
@@ -145,7 +174,7 @@ export function KeyProjects() {
                 <span className="inline-block bg-nmb-blue/5 px-2 py-1 rounded-full text-nmb-blue text-xs">
                   Public Works
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -156,8 +185,8 @@ export function KeyProjects() {
           <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row">
             <div className="relative w-full md:w-1/3 h-48 md:h-auto">
               <Image
-                src="/placeholder.svg?height=300&width=300"
-                alt="IPP4 Amman Storage Tanks"
+                src="/images/project4.jpg"
+                alt="Offshore portable Tank project"
                 fill
                 className="object-cover"
               />
@@ -168,10 +197,12 @@ export function KeyProjects() {
                   <Building2 className="h-5 w-5 text-nmb-blue" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-nmb-blue">IPP4 Amman Storage Tanks</h3>
+                  <h3 className="text-lg font-bold text-nmb-blue">
+                    Offshore portable Tank project
+                  </h3>
                   <p className="text-gray-600 text-sm mt-2">
-                    Supplied and erected 19 tanks and 4 stacks for a power plant, featuring innovative designs and
-                    rigorous quality control.
+                    Manufacturing and Supply of 7,500 Lit Offshore Portable Tank
+                    with National board ASME Stamp
                   </p>
                 </div>
               </div>
@@ -179,7 +210,7 @@ export function KeyProjects() {
           </div>
 
           {/* Project 5 */}
-          <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row">
+          {/* <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row">
             <div className="relative w-full md:w-1/3 h-48 md:h-auto">
               <Image
                 src="/placeholder.svg?height=300&width=300"
@@ -194,28 +225,30 @@ export function KeyProjects() {
                   <Wrench className="h-5 w-5 text-nmb-blue" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-nmb-blue">Qatrana Cement Factory</h3>
+                  <h3 className="text-lg font-bold text-nmb-blue">
+                    Qatrana Cement Factory
+                  </h3>
                   <p className="text-gray-600 text-sm mt-2">
-                    Delivered 16,000 MT of steel structures for cement production facilities, including storage tanks
-                    and multi-story buildings (2008-2011).
+                    Delivered 16,000 MT of steel structures for cement
+                    production facilities, including storage tanks and
+                    multi-story buildings (2008-2011).
                   </p>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* View All Projects Button */}
-        <div className="flex justify-center mt-8">
+        {/* <div className="flex justify-center mt-8">
           <Link href="/projects">
             <Button className="bg-nmb-blue hover:bg-nmb-darkblue text-white group">
               View All Projects
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
-  )
+  );
 }
-

@@ -35,7 +35,7 @@ export function LeadershipMessages() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-nmb-blue/80 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-xl font-bold text-white">MAHMOUD SULEIMAN NAJEM ALKHTIB</h3>
+                    <h3 className="text-xl font-bold text-white">MAHMOUD SULEIMAN NAJEM ALKATIB</h3>
                     <p className="text-white/80">Chairman</p>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ export function LeadershipMessages() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-nmb-blue/80 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-xl font-bold text-white">IYAD MAHD SULEIMAN ALKHATIB</h3>
+                    <h3 className="text-xl font-bold text-white">IYAD MAHMOUD SULEIMAN ALKHATIB</h3>
                     <p className="text-white/80">CEO</p>
                   </div>
                 </div>
