@@ -22,6 +22,15 @@ export function HeroSection() {
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
           {/* Left content */}
           <div className="flex flex-col justify-center space-y-6 text-center lg:text-left">
+            <div className="flex justify-center lg:justify-start mb-4">
+              <Image
+                src="/images/nmb-logo.jpeg"
+                alt="NMB Steel Fabrication Logo"
+                width={100}
+                height={33}
+                className="h-auto w-auto"
+              />
+            </div>
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium mb-2 mx-auto lg:mx-0">
               <span className="flex h-2 w-2 rounded-full bg-nmb-gold mr-2"></span>
               Leading Steel Fabrication Since 1978
@@ -44,11 +53,11 @@ export function HeroSection() {
               </div>
               <div className="flex items-center gap-2 text-white/90 mx-auto lg:mx-0 max-w-md">
                 <CheckCircle className="h-5 w-5 text-nmb-gold flex-shrink-0" />
-                <p className="text-sm md:text-base">40+ Years of Industry Experience</p>
+                <p className="text-sm md:text-base">ICV 100% scored</p>
               </div>
               <div className="flex items-center gap-2 text-white/90 mx-auto lg:mx-0 max-w-md">
                 <CheckCircle className="h-5 w-5 text-nmb-gold flex-shrink-0" />
-                <p className="text-sm md:text-base">Comprehensive End-to-End Solutions</p>
+                <p className="text-sm md:text-base">ASME certified company</p>
               </div>
             </div>
 

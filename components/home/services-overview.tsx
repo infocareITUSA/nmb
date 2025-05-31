@@ -59,7 +59,7 @@ export function ServicesOverview() {
                 </span>
               </div>
               <Link
-                href="/services"
+                href="/services#structural-steel"
                 className="inline-flex items-center text-nmb-blue font-medium hover:text-nmb-darkblue group"
               >
                 Learn more
@@ -103,7 +103,7 @@ export function ServicesOverview() {
                 </span>
               </div>
               <Link
-                href="/services"
+                href="/services#secondary-steelworks"
                 className="inline-flex items-center text-nmb-blue font-medium hover:text-nmb-darkblue group"
               >
                 Learn more
@@ -145,7 +145,7 @@ export function ServicesOverview() {
                 </span>
               </div>
               <Link
-                href="/services"
+                href="/services#architectural-works"
                 className="inline-flex items-center text-nmb-blue font-medium hover:text-nmb-darkblue group"
               >
                 Learn more
@@ -233,21 +233,11 @@ export function ServicesOverview() {
 
             <div className="order-1 lg:order-2 relative">
               <div className="relative h-[400px] md:h-[500px] w-full">
-                <div className="absolute top-0 right-0 w-4/5 h-4/5 z-10">
+                <div className="absolute inset-0 z-10">
                   <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl">
                     <Image
-                      src="/images/project1.jpg"
+                      src="/images/why-choose-us.jpeg"
                       alt="Steel fabrication workshop"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                </div>
-                <div className="absolute bottom-0 left-0 w-3/5 h-3/5 z-0">
-                  <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl border-4 border-white">
-                    <Image
-                      src="/images/project2.jpg"
-                      alt="Steel fabrication team"
                       fill
                       className="object-cover"
                     />

@@ -24,7 +24,7 @@ export function ServicesList() {
         {/* Services Cards */}
         <div className="grid grid-cols-1 gap-12 mb-16">
           {/* Structural Steel Solutions */}
-          <div className="relative bg-gradient-to-r from-gray-50 to-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+          <div id="structural-steel" className="relative bg-gradient-to-r from-gray-50 to-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
             <div className="absolute top-0 left-0 w-1 h-full bg-nmb-blue"></div>
             <div className="grid md:grid-cols-5 gap-6 p-8">
               <div className="md:col-span-2 flex flex-col justify-center">
@@ -37,13 +37,13 @@ export function ServicesList() {
                   infrastructure projects. Our team has extensive experience in creating beams, columns, trusses, and
                   other structural elements to precise specifications.
                 </p>
-                <Link
+                {/* <Link
                   href="/services/structural-steel"
                   className="inline-flex items-center text-nmb-blue font-medium hover:text-nmb-darkblue group"
                 >
                   Learn more about structural steel
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Link>
+                </Link> */}
               </div>
               <div className="md:col-span-3">
                 <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 h-full">
@@ -116,7 +116,7 @@ export function ServicesList() {
           </div>
 
           {/* Secondary Steelworks */}
-          <div className="relative bg-gradient-to-r from-gray-50 to-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+          <div id="secondary-steelworks" className="relative bg-gradient-to-r from-gray-50 to-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
             <div className="absolute top-0 left-0 w-1 h-full bg-nmb-gold"></div>
             <div className="grid md:grid-cols-5 gap-6 p-8">
               <div className="md:col-span-2 flex flex-col justify-center">
@@ -128,13 +128,13 @@ export function ServicesList() {
                   We fabricate precision secondary steel components for various industrial applications. Our advanced
                   machinery and skilled technicians ensure high-quality results for even the most complex parts.
                 </p>
-                <Link
+                {/* <Link
                   href="/services/secondary-steelworks"
                   className="inline-flex items-center text-nmb-blue font-medium hover:text-nmb-darkblue group"
                 >
                   Learn more about secondary steelworks
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Link>
+                </Link> */}
               </div>
               <div className="md:col-span-3">
                 <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 h-full">
@@ -204,7 +204,7 @@ export function ServicesList() {
           </div>
 
           {/* Architectural Works */}
-          <div className="relative bg-gradient-to-r from-gray-50 to-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+          <div id="architectural-works" className="relative bg-gradient-to-r from-gray-50 to-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
             <div className="absolute top-0 left-0 w-1 h-full bg-nmb-blue"></div>
             <div className="grid md:grid-cols-5 gap-6 p-8">
               <div className="md:col-span-2 flex flex-col justify-center">
@@ -217,13 +217,13 @@ export function ServicesList() {
                   requirements. Our design team can help transform your concepts into reality with precision and
                   expertise.
                 </p>
-                <Link
+                {/* <Link
                   href="/services/architectural-works"
                   className="inline-flex items-center text-nmb-blue font-medium hover:text-nmb-darkblue group"
                 >
                   Learn more about architectural works
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Link>
+                </Link> */}
               </div>
               <div className="md:col-span-3">
                 <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 h-full">
